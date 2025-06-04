@@ -1,10 +1,12 @@
 import React from "react";
 import "../styles/Customer.css";
+import { useNavigate } from "react-router-dom";
 
 function Customer() {
   const [username, setUsername] = React.useState("");
   const [password, setPassword] = React.useState("");
   const [error, setError] = React.useState("");
+  const navigate = useNavigate();
 
   const handleLogin = (event) => {
     event.preventDefault();
@@ -17,8 +19,7 @@ function Customer() {
       setError("Invalid username or password.");
     } else if (username === "admin" && password === "admin123") {
       setError("");
-      // Redirect to the admin dashboard or perform any other action
-      alert("Login successful!");
+      navigate("/order");
     }
   };
 
@@ -41,7 +42,7 @@ function Customer() {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           />
-          <button on>Login</button>
+          <button type="submit">Login</button>
         </form>
       </div>
     </div>

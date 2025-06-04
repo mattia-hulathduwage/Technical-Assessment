@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import "../styles/SideBar.css";
 
 function SideBar() {
@@ -12,28 +12,12 @@ function SideBar() {
 
   return (
     <div className="sidebar">
-      <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/stock">Stock</Link>
-        </li>
-        <li>
-          <Link to="/order">Order</Link>
-        </li>
-        <li>
-          <Link
-            to="/"
-            className="logout-btn"
-            onClick={(e) => {
-              e.preventDefault(); // Prevent default navigation
-              handleLogout(); // Run your logout logic and navigation
-            }}
-          >
-            Logout
-          </Link>
-        </li>
+      <div className="sidebar-title">Admin</div>
+      <ul className="sidebar-list">
+        <li onClick={() => navigate("/")}>Home</li>
+        <li onClick={() => navigate("/stock")}>Stock</li>
+        <li onClick={() => navigate("/order-view")}>Order</li>
+        <li onClick={handleLogout} className="logout-btn">Logout</li>
       </ul>
     </div>
   );

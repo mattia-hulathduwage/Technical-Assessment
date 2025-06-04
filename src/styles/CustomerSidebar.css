@@ -1,5 +1,4 @@
-/* Add or update in: c:\Users\mwath\Downloads\test-app\test-app\src\styles\SideBar.css */
-.sidebar {
+.customer-sidebar {
   position: fixed;
   left: 0;
   top: 0;
@@ -35,12 +34,6 @@
   transition: background 0.2s;
 }
 
-.sidebar-list li:hover,
-.sidebar-list .logout-btn:hover {
+.sidebar-list li:hover {
   background: #1251a3;
-}
-
-.logout-btn {
-  color: #fff;
-  font-weight: bold;
 }

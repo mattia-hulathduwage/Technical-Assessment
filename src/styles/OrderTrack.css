@@ -1,0 +1,69 @@
+.ordertrack-container {
+    min-height: 100vh;
+    margin-left: 180px;
+    padding: 32px 24px 24px 24px;
+    background: #fff;
+}
+
+.ordertrack-container h1 {
+    margin-bottom: 32px;
+    color: #222;
+    font-size: 32px;
+}
+
+.ordertrack-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fafafa;
+    font-size: 15px;
+    margin-bottom: 32px;
+}
+
+.ordertrack-table th, .ordertrack-table td {
+    border: 1px solid #ddd;
+    padding: 10px 8px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.ordertrack-table th {
+    background: #f0f0f0;
+    font-weight: 600;
+    color: #222;
+}
+
+.ordertrack-empty {
+    color: #888;
+    font-style: italic;
+    margin: 16px 0;
+}
+
+.ordertrack-table ul {
+    margin: 0;
+    padding-left: 18px;
+}
+
+.ordertrack-status {
+    padding: 4px 12px;
+    border-radius: 12px;
+    font-weight: 500;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.status-placed {
+    background: #e3f2fd;
+    color: #1976d2;
+}
+.status-preparing {
+    background: #fff8e1;
+    color: #ff9800;
+}
+.status-dispatched {
+    background: #e1f5fe;
+    color: #0288d1;
+}
+.status-delivered {
+    background: #e8f5e9;
+    color: #388e3c;
+}
