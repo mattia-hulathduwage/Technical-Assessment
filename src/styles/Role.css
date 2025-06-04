@@ -1,0 +1,60 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: poppins, sans-serif;
+    background-color: #ffffff;
+}
+
+.Role-Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.Button-Modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.Button-Modal h1 {
+    display: block;
+    color: rgb(41, 41, 41);
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.Button-Container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 50px;
+}
+
+.Button-Container button {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(0, 106, 255);
+    font-family: poppins, sans-serif;
+    font-size: 24px;
+}
+
+.Role-Button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+}
+
+.Button-Container button:hover {
+    background-color: rgb(0, 73, 175);
+    transition: background-color 0.3s ease;
+}

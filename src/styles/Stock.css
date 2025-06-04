@@ -1,0 +1,88 @@
+.Stock-Container {
+    min-height: 100vh;
+    padding: 50px 50px 50px 50px;
+    background: #fff;
+    box-sizing: border-box;
+    display: block;
+    
+}
+
+.Stock-Header {
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+
+.Stock-Header hr {
+    width: 200px;
+    height: 5px;
+    background-color: #000;
+    border-radius: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: none;
+    z-index: 1;
+    margin-left: 0;           
+    align-self: flex-start;  
+    margin-left: 0px;
+}
+
+.Stock-Header p {
+    margin: 0;
+    color: #484848;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.Stock-Header h1 {
+    margin: 0;
+    color: #222;
+    font-size: 32px;
+}
+
+.Stock-Choose-Heading {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    font-size: 24px;
+    color: #222;
+    font-weight: 600;
+}
+
+.Stock-Cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.Stock-Card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;      /* Center vertically */
+    align-items: center;          /* Center horizontally */
+    background: #f5f5f5;
+    border-radius: 16px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    padding: 24px 16px;           /* Reduce padding */
+    min-width: 190px;             /* Slightly smaller min width */
+    min-height: 190px;            /* Reduce min height */
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+}
+
+.Stock-Card:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+}
+
+.Stock-Card-Name {
+    margin-top: 18px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #222;
+    text-align: center;
+    letter-spacing: 0.5px;
+}

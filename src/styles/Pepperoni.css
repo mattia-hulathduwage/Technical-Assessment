@@ -1,0 +1,120 @@
+.pepperoni-container {
+    min-height: 100vh;
+    padding: 50px 50px 50px 50px;
+    background: #fff;
+    box-sizing: border-box;
+    display: block;
+}
+
+.pepperoni-description {
+    font-size: 15px;
+    color: #222;
+    margin-bottom: 16px;
+}
+
+.pepperoni-container h1 {
+    margin: 0;
+    color: #222;
+    font-size: 32px;
+}
+
+.pepperoni-ingredients {
+    margin: 0 0 24px 20px;
+    padding: 0;
+    font-size: 16px;
+    color: #444;
+}
+
+.pepperoni-container hr {
+    width: 200px;
+    height: 5px;
+    background-color: #000;
+    border-radius: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: none;
+    z-index: 1;
+    margin-left: 0;           
+    align-self: flex-start;  
+    margin-left: 0px;
+}
+
+.pepperoni-input-row {
+    display: flex;
+    gap: 16px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    max-width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pepperoni-input {
+    flex: unset;
+    width: 240px;     
+    min-width: 0;
+    padding: 8px;
+    font-size: 15px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    box-sizing: border-box;
+    background: #fff;
+    color: #222;
+}
+
+.pepperoni-input-group {
+    display: flex;
+    gap: 16px;
+    flex: 1;
+}
+
+.pepperoni-action-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.pepperoni-btn {
+    padding: 10px 20px;
+    background: #1976d2;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 500;
+    transition: background 0.2s;
+    width: 120px;
+}
+
+.pepperoni-btn:hover {
+    background: #1251a3;
+}
+
+.pepperoni-table-container {
+    width: 100%;        
+    max-width: 100%;       
+    margin-top: 24px;
+    overflow-x: auto;
+}
+
+.pepperoni-table {
+    width: 100%;          
+    border-collapse: collapse;
+    background: #fafafa;
+    font-size: 15px;
+}
+
+.pepperoni-table th, .pepperoni-table td {
+    border: 1px solid #ddd;
+    padding: 10px 8px;
+    text-align: left;
+}
+
+.pepperoni-table th {
+    background: #f0f0f0;
+    font-weight: 600;
+    color: #222;
+}
+
+

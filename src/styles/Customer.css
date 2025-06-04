@@ -1,0 +1,71 @@
+.Customer-Container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Customer-Form-Container {
+    width: 450px;
+    padding: 10px 40px;
+    box-sizing: border-box;
+    background-color: rgb(0, 106, 255);
+    border-radius: 8px;
+}
+
+.Customer-Form-Container h1 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    text-align: center;
+}
+
+.Customer-Form-Container hr {
+    width: 50px;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    z-index: 1;
+    margin-top: -20px;
+    margin-bottom: 40px;
+    border: none;
+}
+
+.Customer-Form-Container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    justify-content: center;
+    font-family: poppins, sans-serif;
+    font-size: 15px;
+}
+
+.Customer-Form-Container button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(0, 72, 207);
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: poppins, sans-serif;
+    margin-bottom: 20px;
+}
+
+.Customer-Form-Container button:hover {
+    background-color: rgb(0, 64, 153);
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.error-message {
+    min-height: 20px;
+    color: red;
+    font-size: 11px;
+    text-align: center;
+}
